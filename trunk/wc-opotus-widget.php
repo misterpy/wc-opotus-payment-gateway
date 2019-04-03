@@ -119,10 +119,8 @@ function opotus_init_gateway_class()
 
                 function togglePlaceholderButton() {
                     if (!!jQuery("#payment_method_opotus_payment_gateway:checked").val()) {
-                        console.log("opotus");
                         jQuery("#place_order").hide();
                     } else {
-                        console.log("not opotus");
                         jQuery("#place_order").show();
                     }
                 }
